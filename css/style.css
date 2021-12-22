@@ -743,7 +743,17 @@ iframe.yt-vid {
     -ms-transform:rotate(360deg);
     transform: rotate(360deg);
 }
-
+.web-development-left h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+}
+.web-development-right img {
+    width: 100%;
+}
 
 
 @media screen and (max-width: 768px) {
