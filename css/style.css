@@ -754,6 +754,20 @@ iframe.yt-vid {
 .web-development-right img {
     width: 100%;
 }
+.web-dev-left-icon {
+    background: #000;
+    width: 15%;
+    padding: 29px;
+    border-radius: 150px 150px 150px 6px;
+    transform: rotate(
+314deg);
+    margin-bottom: 10px;
+}
+.web-dev-left-icon img {
+    transform: rotate(
+45deg);
+    width: 65px;
+}
 
 
 @media screen and (max-width: 768px) {
