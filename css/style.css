@@ -47,7 +47,8 @@ img.logo-img {
 .banner-content-box{
     display: flex;
 }
-h2.banner-cont {
+h2.banner-cont,
+.container-fluid.abt-our-services-box h2 {
     font-weight: bold;
     font-size: 70px;
     font-family: 'Roboto';
@@ -468,6 +469,7 @@ img.logo-list-img {
 }
 .clients{
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 .mail{
     background-image: url(../images/contactus-bg.png);
@@ -744,7 +746,11 @@ iframe.yt-vid {
     transform: rotate(360deg);
 }
 .web-development-left h6,
-.ui-ux-right h6{
+.ui-ux-right h6,
+.mobile-app-left h6
+.abt-digital-marketing-right h6,
+.business-branding h6,
+.full-Support-right h6{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -753,11 +759,20 @@ iframe.yt-vid {
     color: #000000;
 }
 .web-development-right img,
-.ui-ux-left img{
+.ui-ux-left img,
+.mobile-app-right img,
+.abt-digital-marketing-left img,
+.business-branding-right img,
+.full-Support-left img{ 
     width: 100%;
 }
 .web-dev-left-icon,
-.ui-ux-right-icon {
+.ui-ux-right-icon,
+.mobile-app-left-icon,
+.abt-digital-marketing-right-icon,
+.business-branding-left-icon,
+.full-Support-right-icon,
+.our-services-list-icon  {
     max-width: 123px;
     padding: 29px;
     border-radius: 150px 150px 150px 6px;
@@ -766,26 +781,58 @@ iframe.yt-vid {
     margin-bottom: 20px;
 }
 .web-dev-left-icon img,
-.ui-ux-right-icon img {
+.ui-ux-right-icon img,
+.mobile-app-left-icon img,
+.abt-digital-marketing-right-icon img,
+.business-branding-left-icon img,
+.full-Support-right-icon img,
+.our-services-list-icon img {
     transform: rotate(
 45deg);
     width: 65px;
 }
-.web-development-left{
+.web-development-left,
+.mobile-app-left,
+.business-branding-left{
     padding: 50px;
     border-radius: 180px 123px  0px;
+    align-self: center;
 }
-.ui-ux-right{
+.ui-ux-right,
+.abt-digital-marketing-right,
+.full-Support-right{
     padding: 50px;
     border-radius: 180px 123px 0px;
+    align-self: center;
 }
-.icon-text.col-md-6 {
-    /* text-align: center; */
+.icon-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#service-1,#service-2,#service-3,#service-4,#service-5,#service-6 {
+    margin-bottom: 80px;
+}
+.abt-our-services-box {
+    background-image: url(../images/abt-service-bg.svg);
+    min-height: 1190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abt-our-services-list-main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-top: 150px;
 }
-
+.our-services-list{
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container-fluid.abt-our-services-box h2 {
+    margin-top: 130px;
+}
 
 @media screen and (max-width: 768px) {
     .abt-cont {
